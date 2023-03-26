@@ -18,9 +18,9 @@ export default function EmailInput() {
   return (
     <form className="emailInput">
       <input type="email" name="email" placeholder="Email Address" />
-      <img src="images/icon-error.svg" alt="error" id="error" />
+      <img src="/icon-error.svg" alt="error" id="error" />
       <button onClick={Validate} type="submit">
-        <img src="images/icon-arrow.svg" alt="submit" />
+        <img src="/icon-arrow.svg" alt="submit" />
       </button>
     </form>
   );

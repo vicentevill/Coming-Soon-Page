@@ -5,9 +5,9 @@ export default function ComingSoon() {
   return (
     <div className="comingSoon">
       <header>
-        <img src="images/logo.svg" alt="logo" id="logo" />
+        <img src="/logo.svg" alt="logo" id="logo" />
       </header>
-      <img src="images/hero-mobile.jpg" alt="hero-image" id="heroIMG" />
+      <img src="/hero-mobile.jpg" alt="hero-image" id="heroIMG" />
       <h1>
         {" "}
         <strong>We're</strong> coming soon
